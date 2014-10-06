@@ -1,0 +1,428 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/Users/ragingwind/.nvm/v0.10.29/bin/npm', 'install' ]
+2 info using npm@1.5.0-alpha-1
+3 info using node@v0.10.29
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/ragingwind/Workspace/ragingwind/gulp-vulcanize',
+5 verbose install   [ 'gulp-util', 'mkdirp', 'through2', 'vulcanize', 'mocha' ] ]
+6 info preinstall gulp-vulcanize@1.1.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'gulp-util@^3.0.0', null ]
+9 verbose cache add spec="gulp-util@^3.0.0" args=["gulp-util@^3.0.0",null]
+10 verbose cache add [ 'mkdirp@^0.5.0', null ]
+11 verbose cache add spec="mkdirp@^0.5.0" args=["mkdirp@^0.5.0",null]
+12 verbose parsed spec { raw: 'gulp-util@^3.0.0',
+12 verbose parsed spec   scope: null,
+12 verbose parsed spec   name: 'gulp-util',
+12 verbose parsed spec   rawSpec: '^3.0.0',
+12 verbose parsed spec   spec: '>=3.0.0-0 <4.0.0-0',
+12 verbose parsed spec   type: 'range' }
+13 verbose addNamed [ 'gulp-util', '>=3.0.0-0 <4.0.0-0' ]
+14 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+15 verbose cache add [ 'vulcanize@https://github.com/rush340/vulcanize.git', null ]
+16 verbose cache add spec="vulcanize@https://github.com/rush340/vulcanize.git" args=["vulcanize@https://github.com/rush340/vulcanize.git",null]
+17 verbose cache add [ 'through2@^0.6.1', null ]
+18 verbose cache add spec="through2@^0.6.1" args=["through2@^0.6.1",null]
+19 verbose cache add [ 'mocha@*', null ]
+20 verbose cache add spec="mocha@*" args=["mocha@*",null]
+21 verbose parsed spec { raw: 'mkdirp@^0.5.0',
+21 verbose parsed spec   scope: null,
+21 verbose parsed spec   name: 'mkdirp',
+21 verbose parsed spec   rawSpec: '^0.5.0',
+21 verbose parsed spec   spec: '>=0.5.0-0 <0.6.0-0',
+21 verbose parsed spec   type: 'range' }
+22 verbose addNamed [ 'mkdirp', '>=0.5.0-0 <0.6.0-0' ]
+23 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+24 silly lockFile 0fea1d07-gulp-util-3-0-0-0-4-0-0-0 gulp-util@>=3.0.0-0 <4.0.0-0
+25 verbose lock gulp-util@>=3.0.0-0 <4.0.0-0 /Users/ragingwind/.npm/0fea1d07-gulp-util-3-0-0-0-4-0-0-0.lock
+26 silly lockFile 272f1170-mkdirp-0-5-0-0-0-6-0-0 mkdirp@>=0.5.0-0 <0.6.0-0
+27 verbose lock mkdirp@>=0.5.0-0 <0.6.0-0 /Users/ragingwind/.npm/272f1170-mkdirp-0-5-0-0-0-6-0-0.lock
+28 verbose parsed spec { raw: 'vulcanize@https://github.com/rush340/vulcanize.git',
+28 verbose parsed spec   scope: null,
+28 verbose parsed spec   name: 'vulcanize',
+28 verbose parsed spec   rawSpec: 'https://github.com/rush340/vulcanize.git',
+28 verbose parsed spec   spec: 'https://github.com/rush340/vulcanize.git',
+28 verbose parsed spec   type: 'remote' }
+29 silly lockFile 2e191f59-github-com-rush340-vulcanize-git https://github.com/rush340/vulcanize.git
+30 verbose lock https://github.com/rush340/vulcanize.git /Users/ragingwind/.npm/2e191f59-github-com-rush340-vulcanize-git.lock
+31 verbose parsed spec { raw: 'through2@^0.6.1',
+31 verbose parsed spec   scope: null,
+31 verbose parsed spec   name: 'through2',
+31 verbose parsed spec   rawSpec: '^0.6.1',
+31 verbose parsed spec   spec: '>=0.6.1-0 <0.7.0-0',
+31 verbose parsed spec   type: 'range' }
+32 verbose addNamed [ 'through2', '>=0.6.1-0 <0.7.0-0' ]
+33 verbose addNamed [ null, '>=0.6.1-0 <0.7.0-0' ]
+34 silly lockFile d1385f23-through2-0-6-1-0-0-7-0-0 through2@>=0.6.1-0 <0.7.0-0
+35 verbose lock through2@>=0.6.1-0 <0.7.0-0 /Users/ragingwind/.npm/d1385f23-through2-0-6-1-0-0-7-0-0.lock
+36 verbose parsed spec { raw: 'mocha@*',
+36 verbose parsed spec   scope: null,
+36 verbose parsed spec   name: 'mocha',
+36 verbose parsed spec   rawSpec: '*',
+36 verbose parsed spec   spec: '*',
+36 verbose parsed spec   type: 'range' }
+37 verbose addNamed [ 'mocha', '*' ]
+38 verbose addNamed [ null, '*' ]
+39 silly lockFile 4d0fa87f-mocha mocha@*
+40 verbose lock mocha@* /Users/ragingwind/.npm/4d0fa87f-mocha.lock
+41 silly addNameRange { name: 'gulp-util',
+41 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+41 silly addNameRange   hasData: false }
+42 verbose mapToRegistry name gulp-util
+43 verbose mapToRegistry uri https://registry.npmjs.org/gulp-util
+44 silly addNameRange { name: 'mkdirp', range: '>=0.5.0-0 <0.6.0-0', hasData: false }
+45 verbose mapToRegistry name mkdirp
+46 verbose mapToRegistry uri https://registry.npmjs.org/mkdirp
+47 verbose addRemoteTarball [ 'https://github.com/rush340/vulcanize.git', null ]
+48 silly addNameRange { name: 'through2', range: '>=0.6.1-0 <0.7.0-0', hasData: false }
+49 verbose mapToRegistry name through2
+50 verbose mapToRegistry uri https://registry.npmjs.org/through2
+51 silly addNameRange { name: 'mocha', range: '*', hasData: false }
+52 verbose mapToRegistry name mocha
+53 verbose mapToRegistry uri https://registry.npmjs.org/mocha
+54 verbose request where is /gulp-util
+55 verbose request registry https://registry.npmjs.org/
+56 verbose request id 270bd6b789e8f61f
+57 verbose request url raw /gulp-util
+58 verbose request url resolving [ 'https://registry.npmjs.org/', './gulp-util' ]
+59 verbose request url resolved https://registry.npmjs.org/gulp-util
+60 verbose request where is https://registry.npmjs.org/gulp-util
+61 verbose request no basic auth needed
+62 info trying registry request attempt 1 at 02:19:01
+63 verbose etag "25D2R2FQSCD9H68SGK59EJL7B"
+64 http GET https://registry.npmjs.org/gulp-util
+65 verbose request where is /mkdirp
+66 verbose request registry https://registry.npmjs.org/
+67 verbose request url raw /mkdirp
+68 verbose request url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+69 verbose request url resolved https://registry.npmjs.org/mkdirp
+70 verbose request where is https://registry.npmjs.org/mkdirp
+71 verbose request no basic auth needed
+72 info trying registry request attempt 1 at 02:19:01
+73 verbose etag "C5K6Z3N1TR1E91DOOPOUICJ8B"
+74 http GET https://registry.npmjs.org/mkdirp
+75 verbose request where is /through2
+76 verbose request registry https://registry.npmjs.org/
+77 verbose request url raw /through2
+78 verbose request url resolving [ 'https://registry.npmjs.org/', './through2' ]
+79 verbose request url resolved https://registry.npmjs.org/through2
+80 verbose request where is https://registry.npmjs.org/through2
+81 verbose request no basic auth needed
+82 info trying registry request attempt 1 at 02:19:01
+83 verbose etag "5Q0X4PRSXB2I0OVVZV1HRNPJ0"
+84 http GET https://registry.npmjs.org/through2
+85 verbose request where is /mocha
+86 verbose request registry https://registry.npmjs.org/
+87 verbose request url raw /mocha
+88 verbose request url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+89 verbose request url resolved https://registry.npmjs.org/mocha
+90 verbose request where is https://registry.npmjs.org/mocha
+91 verbose request no basic auth needed
+92 info trying registry request attempt 1 at 02:19:01
+93 verbose etag "EKGYWLGY65FLMCHH7UEBPKATA"
+94 http GET https://registry.npmjs.org/mocha
+95 info retry fetch attempt 1 at 02:19:01
+96 verbose fetch to= /var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/npm-35535-05yvmTV_/github.com/rush340/vulcanize.git
+97 http GET https://github.com/rush340/vulcanize.git
+98 http 304 https://registry.npmjs.org/mkdirp
+99 silly registry.get cb [ 304,
+99 silly registry.get   { date: 'Mon, 06 Oct 2014 17:16:36 GMT',
+99 silly registry.get     server: 'Apache',
+99 silly registry.get     via: '1.1 varnish',
+99 silly registry.get     'last-modified': 'Mon, 06 Oct 2014 17:15:39 GMT',
+99 silly registry.get     'cache-control': 'max-age=60',
+99 silly registry.get     etag: '"C5K6Z3N1TR1E91DOOPOUICJ8B"',
+99 silly registry.get     'x-served-by': 'cache-ty68-TYO',
+99 silly registry.get     'x-cache': 'HIT',
+99 silly registry.get     'x-cache-hits': '4',
+99 silly registry.get     'x-timer': 'S1412615796.517680,VS0,VE0',
+99 silly registry.get     vary: 'Accept',
+99 silly registry.get     'content-length': '0',
+99 silly registry.get     'keep-alive': 'timeout=10, max=50',
+99 silly registry.get     connection: 'Keep-Alive' } ]
+100 verbose etag https://registry.npmjs.org/mkdirp from cache
+101 http 304 https://registry.npmjs.org/through2
+102 silly registry.get cb [ 304,
+102 silly registry.get   { date: 'Mon, 06 Oct 2014 17:16:36 GMT',
+102 silly registry.get     server: 'Apache',
+102 silly registry.get     via: '1.1 varnish',
+102 silly registry.get     'last-modified': 'Mon, 06 Oct 2014 17:16:36 GMT',
+102 silly registry.get     'cache-control': 'max-age=60',
+102 silly registry.get     etag: '"5Q0X4PRSXB2I0OVVZV1HRNPJ0"',
+102 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+102 silly registry.get     'x-cache': 'HIT',
+102 silly registry.get     'x-cache-hits': '1',
+102 silly registry.get     'x-timer': 'S1412615796.518949,VS0,VE0',
+102 silly registry.get     vary: 'Accept',
+102 silly registry.get     'content-length': '0',
+102 silly registry.get     'keep-alive': 'timeout=10, max=50',
+102 silly registry.get     connection: 'Keep-Alive' } ]
+103 verbose etag https://registry.npmjs.org/through2 from cache
+104 http 304 https://registry.npmjs.org/gulp-util
+105 silly registry.get cb [ 304,
+105 silly registry.get   { date: 'Mon, 06 Oct 2014 17:16:36 GMT',
+105 silly registry.get     server: 'Apache',
+105 silly registry.get     via: '1.1 varnish',
+105 silly registry.get     'last-modified': 'Mon, 06 Oct 2014 17:16:36 GMT',
+105 silly registry.get     'cache-control': 'max-age=60',
+105 silly registry.get     etag: '"25D2R2FQSCD9H68SGK59EJL7B"',
+105 silly registry.get     'x-served-by': 'cache-ty68-TYO',
+105 silly registry.get     'x-cache': 'HIT',
+105 silly registry.get     'x-cache-hits': '1',
+105 silly registry.get     'x-timer': 'S1412615796.520868,VS0,VE0',
+105 silly registry.get     vary: 'Accept',
+105 silly registry.get     'content-length': '0',
+105 silly registry.get     'keep-alive': 'timeout=10, max=50',
+105 silly registry.get     connection: 'Keep-Alive' } ]
+106 verbose etag https://registry.npmjs.org/gulp-util from cache
+107 silly addNameRange number 2 { name: 'through2', range: '>=0.6.1-0 <0.7.0-0', hasData: true }
+108 silly addNameRange versions [ 'through2',
+108 silly addNameRange   [ '0.0.0',
+108 silly addNameRange     '0.0.1',
+108 silly addNameRange     '0.0.2',
+108 silly addNameRange     '0.0.3',
+108 silly addNameRange     '0.0.4',
+108 silly addNameRange     '0.0.5',
+108 silly addNameRange     '0.1.0',
+108 silly addNameRange     '0.2.0',
+108 silly addNameRange     '0.2.1',
+108 silly addNameRange     '0.2.2',
+108 silly addNameRange     '0.2.3',
+108 silly addNameRange     '0.3.0',
+108 silly addNameRange     '0.4.0',
+108 silly addNameRange     '0.4.1',
+108 silly addNameRange     '1.0.0',
+108 silly addNameRange     '0.4.2',
+108 silly addNameRange     '0.5.0',
+108 silly addNameRange     '0.5.1',
+108 silly addNameRange     '0.6.0',
+108 silly addNameRange     '1.1.0',
+108 silly addNameRange     '0.6.1',
+108 silly addNameRange     '1.1.1',
+108 silly addNameRange     '0.6.2' ] ]
+109 verbose addNamed [ 'through2', '0.6.2' ]
+110 verbose addNamed [ '0.6.2', '0.6.2' ]
+111 silly lockFile c77aae9e-through2-0-6-2 through2@0.6.2
+112 verbose lock through2@0.6.2 /Users/ragingwind/.npm/c77aae9e-through2-0-6-2.lock
+113 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.0-0 <0.6.0-0', hasData: true }
+114 silly addNameRange versions [ 'mkdirp',
+114 silly addNameRange   [ '0.0.1',
+114 silly addNameRange     '0.0.2',
+114 silly addNameRange     '0.0.3',
+114 silly addNameRange     '0.0.4',
+114 silly addNameRange     '0.0.5',
+114 silly addNameRange     '0.0.6',
+114 silly addNameRange     '0.0.7',
+114 silly addNameRange     '0.1.0',
+114 silly addNameRange     '0.2.0',
+114 silly addNameRange     '0.2.1',
+114 silly addNameRange     '0.2.2',
+114 silly addNameRange     '0.3.0',
+114 silly addNameRange     '0.3.1',
+114 silly addNameRange     '0.3.2',
+114 silly addNameRange     '0.3.3',
+114 silly addNameRange     '0.3.4',
+114 silly addNameRange     '0.3.5',
+114 silly addNameRange     '0.4.0',
+114 silly addNameRange     '0.4.1',
+114 silly addNameRange     '0.4.2',
+114 silly addNameRange     '0.5.0' ] ]
+115 verbose addNamed [ 'mkdirp', '0.5.0' ]
+116 verbose addNamed [ '0.5.0', '0.5.0' ]
+117 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+118 verbose lock mkdirp@0.5.0 /Users/ragingwind/.npm/bf9ae38d-mkdirp-0-5-0.lock
+119 silly addNameRange number 2 { name: 'gulp-util', range: '>=3.0.0-0 <4.0.0-0', hasData: true }
+120 silly addNameRange versions [ 'gulp-util',
+120 silly addNameRange   [ '0.0.1',
+120 silly addNameRange     '1.0.0',
+120 silly addNameRange     '1.1.0',
+120 silly addNameRange     '1.1.1',
+120 silly addNameRange     '1.2.0',
+120 silly addNameRange     '1.3.0',
+120 silly addNameRange     '2.0.0',
+120 silly addNameRange     '2.1.1',
+120 silly addNameRange     '2.1.2',
+120 silly addNameRange     '2.1.3',
+120 silly addNameRange     '2.1.4',
+120 silly addNameRange     '2.2.0',
+120 silly addNameRange     '2.2.1',
+120 silly addNameRange     '2.2.2',
+120 silly addNameRange     '2.2.3',
+120 silly addNameRange     '2.2.5',
+120 silly addNameRange     '2.2.6',
+120 silly addNameRange     '2.2.7',
+120 silly addNameRange     '2.2.8',
+120 silly addNameRange     '2.2.9',
+120 silly addNameRange     '2.2.10',
+120 silly addNameRange     '2.2.11',
+120 silly addNameRange     '2.2.12',
+120 silly addNameRange     '2.2.13',
+120 silly addNameRange     '2.2.14',
+120 silly addNameRange     '2.2.15',
+120 silly addNameRange     '2.2.16',
+120 silly addNameRange     '2.2.17',
+120 silly addNameRange     '2.2.18',
+120 silly addNameRange     '2.2.19',
+120 silly addNameRange     '2.2.20',
+120 silly addNameRange     '3.0.0',
+120 silly addNameRange     '3.0.1' ] ]
+121 verbose addNamed [ 'gulp-util', '3.0.1' ]
+122 verbose addNamed [ '3.0.1', '3.0.1' ]
+123 silly lockFile ea8d3cdd-gulp-util-3-0-1 gulp-util@3.0.1
+124 verbose lock gulp-util@3.0.1 /Users/ragingwind/.npm/ea8d3cdd-gulp-util-3-0-1.lock
+125 silly lockFile c77aae9e-through2-0-6-2 through2@0.6.2
+126 silly lockFile c77aae9e-through2-0-6-2 through2@0.6.2
+127 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+128 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+129 silly lockFile d1385f23-through2-0-6-1-0-0-7-0-0 through2@>=0.6.1-0 <0.7.0-0
+130 silly lockFile d1385f23-through2-0-6-1-0-0-7-0-0 through2@>=0.6.1-0 <0.7.0-0
+131 silly lockFile 272f1170-mkdirp-0-5-0-0-0-6-0-0 mkdirp@>=0.5.0-0 <0.6.0-0
+132 silly lockFile 272f1170-mkdirp-0-5-0-0-0-6-0-0 mkdirp@>=0.5.0-0 <0.6.0-0
+133 silly lockFile ea8d3cdd-gulp-util-3-0-1 gulp-util@3.0.1
+134 silly lockFile ea8d3cdd-gulp-util-3-0-1 gulp-util@3.0.1
+135 silly lockFile 0fea1d07-gulp-util-3-0-0-0-4-0-0-0 gulp-util@>=3.0.0-0 <4.0.0-0
+136 silly lockFile 0fea1d07-gulp-util-3-0-0-0-4-0-0-0 gulp-util@>=3.0.0-0 <4.0.0-0
+137 http 304 https://registry.npmjs.org/mocha
+138 silly registry.get cb [ 304,
+138 silly registry.get   { date: 'Mon, 06 Oct 2014 17:16:36 GMT',
+138 silly registry.get     server: 'Apache',
+138 silly registry.get     via: '1.1 varnish',
+138 silly registry.get     'last-modified': 'Mon, 06 Oct 2014 17:16:36 GMT',
+138 silly registry.get     'cache-control': 'max-age=60',
+138 silly registry.get     etag: '"EKGYWLGY65FLMCHH7UEBPKATA"',
+138 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+138 silly registry.get     'x-cache': 'HIT',
+138 silly registry.get     'x-cache-hits': '1',
+138 silly registry.get     'x-timer': 'S1412615796.518519,VS0,VE181',
+138 silly registry.get     vary: 'Accept',
+138 silly registry.get     'content-length': '0',
+138 silly registry.get     'keep-alive': 'timeout=10, max=50',
+138 silly registry.get     connection: 'Keep-Alive' } ]
+139 verbose etag https://registry.npmjs.org/mocha from cache
+140 silly addNameRange number 2 { name: 'mocha', range: '*', hasData: true }
+141 silly addNameRange versions [ 'mocha',
+141 silly addNameRange   [ '0.0.1-alpha1',
+141 silly addNameRange     '0.0.1-alpha2',
+141 silly addNameRange     '0.0.1-alpha3',
+141 silly addNameRange     '0.0.1-alpha4',
+141 silly addNameRange     '0.0.1-alpha5',
+141 silly addNameRange     '0.0.1-alpha6',
+141 silly addNameRange     '0.0.1',
+141 silly addNameRange     '0.0.2',
+141 silly addNameRange     '0.0.3',
+141 silly addNameRange     '0.0.4',
+141 silly addNameRange     '0.0.5',
+141 silly addNameRange     '0.0.6',
+141 silly addNameRange     '0.0.7',
+141 silly addNameRange     '0.0.8',
+141 silly addNameRange     '0.1.0',
+141 silly addNameRange     '0.2.0',
+141 silly addNameRange     '0.3.0',
+141 silly addNameRange     '0.3.1',
+141 silly addNameRange     '0.3.2',
+141 silly addNameRange     '0.3.3',
+141 silly addNameRange     '0.3.4',
+141 silly addNameRange     '0.3.6',
+141 silly addNameRange     '0.4.0',
+141 silly addNameRange     '0.5.0',
+141 silly addNameRange     '0.6.0',
+141 silly addNameRange     '0.7.0',
+141 silly addNameRange     '0.7.1',
+141 silly addNameRange     '0.8.0',
+141 silly addNameRange     '0.8.1',
+141 silly addNameRange     '0.9.0',
+141 silly addNameRange     '0.10.0',
+141 silly addNameRange     '0.10.1',
+141 silly addNameRange     '0.10.2',
+141 silly addNameRange     '0.11.0',
+141 silly addNameRange     '0.12.0',
+141 silly addNameRange     '0.12.1',
+141 silly addNameRange     '0.13.0',
+141 silly addNameRange     '0.14.0',
+141 silly addNameRange     '0.14.1',
+141 silly addNameRange     '1.0.0',
+141 silly addNameRange     '1.0.1',
+141 silly addNameRange     '1.0.2',
+141 silly addNameRange     '1.0.3',
+141 silly addNameRange     '1.1.0',
+141 silly addNameRange     '1.2.0',
+141 silly addNameRange     '1.2.1',
+141 silly addNameRange     '1.2.2',
+141 silly addNameRange     '1.3.0',
+141 silly addNameRange     '1.3.1',
+141 silly addNameRange     '1.3.2',
+141 silly addNameRange     '1.4.0',
+141 silly addNameRange     '1.4.1',
+141 silly addNameRange     '1.4.2',
+141 silly addNameRange     '1.4.3',
+141 silly addNameRange     '1.5.0',
+141 silly addNameRange     '1.6.0',
+141 silly addNameRange     '1.7.0',
+141 silly addNameRange     '1.7.1',
+141 silly addNameRange     '1.7.2',
+141 silly addNameRange     '1.7.3',
+141 silly addNameRange     '1.7.4',
+141 silly addNameRange     '1.8.0',
+141 silly addNameRange     '1.8.1',
+141 silly addNameRange     '1.8.2',
+141 silly addNameRange     '1.9.0',
+141 silly addNameRange     '1.10.0',
+141 silly addNameRange     '1.11.0',
+141 silly addNameRange     '1.12.0',
+141 silly addNameRange     '1.12.1',
+141 silly addNameRange     '1.13.0',
+141 silly addNameRange     '1.14.0',
+141 silly addNameRange     '1.15.0',
+141 silly addNameRange     '1.15.1',
+141 silly addNameRange     '1.16.0',
+141 silly addNameRange     '1.16.1',
+141 silly addNameRange     '1.16.2',
+141 silly addNameRange     '1.17.0',
+141 silly addNameRange     '1.17.1',
+141 silly addNameRange     '1.18.0',
+141 silly addNameRange     '1.18.1',
+141 silly addNameRange     '1.18.2',
+141 silly addNameRange     '1.19.0',
+141 silly addNameRange     '1.20.0',
+141 silly addNameRange     '1.20.1',
+141 silly addNameRange     '1.21.0',
+141 silly addNameRange     '1.21.1',
+141 silly addNameRange     '1.21.2',
+141 silly addNameRange     '1.21.3',
+141 silly addNameRange     '1.21.4' ] ]
+142 verbose addNamed [ 'mocha', '1.21.4' ]
+143 verbose addNamed [ '1.21.4', '1.21.4' ]
+144 silly lockFile a6953c81-mocha-1-21-4 mocha@1.21.4
+145 verbose lock mocha@1.21.4 /Users/ragingwind/.npm/a6953c81-mocha-1-21-4.lock
+146 silly lockFile a6953c81-mocha-1-21-4 mocha@1.21.4
+147 silly lockFile a6953c81-mocha-1-21-4 mocha@1.21.4
+148 silly lockFile 4d0fa87f-mocha mocha@*
+149 silly lockFile 4d0fa87f-mocha mocha@*
+150 http 200 https://github.com/rush340/vulcanize.git
+151 verbose tar unpack /var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/npm-35535-05yvmTV_/github.com/rush340/vulcanize.git
+152 silly lockFile cbc55feb-com-rush340-vulcanize-git-unpack tar:///var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/npm-35535-05yvmTV_/github.com/rush340/vulcanize.git-unpack
+153 verbose lock tar:///var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/npm-35535-05yvmTV_/github.com/rush340/vulcanize.git-unpack /Users/ragingwind/.npm/cbc55feb-com-rush340-vulcanize-git-unpack.lock
+154 silly lockFile 6cc9071f-github-com-rush340-vulcanize-git tar:///var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/npm-35535-05yvmTV_/github.com/rush340/vulcanize.git
+155 verbose lock tar:///var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/npm-35535-05yvmTV_/github.com/rush340/vulcanize.git /Users/ragingwind/.npm/6cc9071f-github-com-rush340-vulcanize-git.lock
+156 verbose gentlyRm vacuuming /var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/npm-35535-05yvmTV_/github.com/rush340/vulcanize.git-unpack
+157 silly gunzTarPerm modes [ '755', '644' ]
+158 error not a package /var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/npm-35535-05yvmTV_/github.com/rush340/vulcanize.git
+159 silly lockFile cbc55feb-com-rush340-vulcanize-git-unpack tar:///var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/npm-35535-05yvmTV_/github.com/rush340/vulcanize.git-unpack
+160 silly lockFile cbc55feb-com-rush340-vulcanize-git-unpack tar:///var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/npm-35535-05yvmTV_/github.com/rush340/vulcanize.git-unpack
+161 silly lockFile 6cc9071f-github-com-rush340-vulcanize-git tar:///var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/npm-35535-05yvmTV_/github.com/rush340/vulcanize.git
+162 silly lockFile 6cc9071f-github-com-rush340-vulcanize-git tar:///var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/npm-35535-05yvmTV_/github.com/rush340/vulcanize.git
+163 silly lockFile 2e191f59-github-com-rush340-vulcanize-git https://github.com/rush340/vulcanize.git
+164 silly lockFile 2e191f59-github-com-rush340-vulcanize-git https://github.com/rush340/vulcanize.git
+165 error Error: ENOENT, open '/var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/npm-35535-05yvmTV_/github.com/rush340/vulcanize.git-unpack/package.json'
+166 error If you need help, you may report this *entire* log,
+166 error including the npm and node versions, at:
+166 error     <http://github.com/npm/npm/issues>
+167 error System Darwin 13.4.0
+168 error command "node" "/Users/ragingwind/.nvm/v0.10.29/bin/npm" "install"
+169 error cwd /Users/ragingwind/Workspace/ragingwind/gulp-vulcanize
+170 error node -v v0.10.29
+171 error npm -v 1.5.0-alpha-1
+172 error path /var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/npm-35535-05yvmTV_/github.com/rush340/vulcanize.git-unpack/package.json
+173 error code ENOENT
+174 error errno 34
+175 verbose exit [ 34, true ]
