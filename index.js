@@ -25,7 +25,7 @@ module.exports = function (options) {
 		}
 
 		var self = this;
-		var destFilename = path.join(options.dest, path.basename(file.path));
+		var destFilename = path.join(options.dest, options.output || path.basename(file.path));
 		options.input = path.join(path.dirname(file.path), '.' + path.basename(file.path));
 		options.output = destFilename;
 		vulcanize.setOptions(options, function () {});
