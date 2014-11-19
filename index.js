@@ -32,7 +32,7 @@ module.exports = function (options) {
 				return;
 			}
 		}
-		options.outputSrc = function(filename, data, finished) {
+		options.outputHandler = function(filename, data, finished) {
 			this.push(new gutil.File({
 				cwd: file.cwd,
 				base: file.base,
