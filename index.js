@@ -1,5 +1,4 @@
 'use strict';
-var fs = require('fs');
 var path = require('path');
 var gutil = require('gulp-util');
 var through = require('through2');
@@ -7,10 +6,6 @@ var vulcanize = require('vulcanize');
 
 module.exports = function (options) {
 	options = options || {};
-
-	if (!options.dest) {
-		throw new gutil.PluginError('gulp-vulcanize', '`dest` required');
-	}
 
 	return through.obj(function (file, enc, cb) {
 		if (file.isNull()) {
@@ -25,12 +20,23 @@ module.exports = function (options) {
 
 		options.input = file.path;
 		options.inputSrc = file.contents;
-		options.output = path.join(options.dest, path.basename(file.path));
+		if (!options.output) {
+			// using same name of input file
+			options.output = path.basename(file.path);
+		} else {
+			if (typeof options.output === 'function') {
+				// excute filter function
+				options.output = options.output(file.path);
+			} else if (typeof options.output !== 'string') {
+				cb(new gutil.PluginError('gulp-vulcanize', 'output is unknown type'));
+				return;
+			}
+		}
 		options.outputSrc = function(filename, data, finished) {
 			this.push(new gutil.File({
 				cwd: file.cwd,
-				base: path.dirname(filename),
-				path: filename,
+				base: file.base,
+				path: path.join(file.base, path.basename(filename)),
 				contents: new Buffer(data)
 			}));
 
